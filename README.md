@@ -1,11 +1,11 @@
 # Laporan Ujian Tengah Semester (UTS) - Sistem Basis Data
 
 **Nama**: Danuardi Saputro  
-**NIM / Email**: danuardi.saputro25@mhs.uinjkt.ac.id  
+**Email**: danuardi.saputro25@mhs.uinjkt.ac.id  
 **Kelas**: 3D  
 **Program Studi**: Sistem Informasi  
 **Mata Kuliah**: Sistem Basis Data  
-**Dosen Pengampu**: Pak Rizal Broer, M.Kom (`rizalbroer@uinjkt.ac.id`)  
+**Dosen Pengampu**: Pak Rizal Broer, M.Kom  
 **Repositori GitHub**: [https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D](https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D)  
 
 ---
@@ -27,6 +27,8 @@ UTS_SBD_Danuardi-Saputro_3D/
 ├── README.md                                # Dokumentasi utama repositori
 ├── Laporan_UTS_SBD_Danuardi_Saputro_3D.pdf  # Berkas laporan utama format PDF
 ├── Laporan_UTS_SBD_Danuardi_Saputro_3D.docx # Berkas laporan utama format Word
+├── buku/                                    # Buku teks referensi studi kasus UTS
+│   └── Fundamentals_of_Database_Systems_7th_Edition_Elmasri.pdf
 ├── model/                                   # Berkas proyek Oracle Data Modeler (.dmd)
 │   ├── UTS_SBD_Model.dmd
 │   └── UTS_SBD_Model/
