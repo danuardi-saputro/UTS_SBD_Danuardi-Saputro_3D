@@ -185,9 +185,8 @@ UTS_SBD_Danuardi-Saputro_3D/
 ├── README.md                                # Laporan teknis utama
 ├── screenshots/                             # Dokumentasi tangkapan layar proses
 │   └── 01_Soal_3_21_Logical_Model.png
-├── sql/                                     # Seluruh script DDL PostgreSQL
-│   ├── 01_Soal_3_21_Congress_Votes.sql
-│   ├── 02_Soal_3_34_Conference_Review.sql
-│   └── 03_Soal_3_35_Airline_Database.sql
-└── .gitignore                               # Mengabaikan file biner besar
+└── sql/                                     # Seluruh script DDL PostgreSQL
+    ├── 01_Soal_3_21_Congress_Votes.sql
+    ├── 02_Soal_3_34_Conference_Review.sql
+    └── 03_Soal_3_35_Airline_Database.sql
 ```
