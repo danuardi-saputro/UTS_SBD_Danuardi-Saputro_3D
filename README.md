@@ -3,10 +3,9 @@
 **Nama**: Danuardi Saputro  
 **Email**: danuardi.saputro25@mhs.uinjkt.ac.id  
 **Kelas**: 3D  
-**Program Studi**: Sistem Informasi  
+**Program Studi**: Teknik Informatika  
 **Mata Kuliah**: Sistem Basis Data  
 **Dosen Pengampu**: Pak Rizal Broer, M.Kom  
-**Repositori GitHub**: [https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D](https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D)  
 
 ---
 
@@ -14,9 +13,9 @@
 Repositori ini berisi seluruh dokumentasi, berkas pemodelan, dan skrip implementasi untuk Ujian Tengah Semester (UTS) mata kuliah Sistem Basis Data. Pengerjaan mencakup perancangan **Logical Model**, transformasi ke **Physical/Relational Model** menggunakan **Oracle SQL Developer Data Modeler**, pembuatan skrip **DDL (Data Definition Language)**, serta eksekusi (*dump*) pada sistem basis data **PostgreSQL**.
 
 Studi kasus diambil dari buku teks *Fundamentals of Database Systems* (R. Elmasri & S. B. Navathe, 7th Edition):
-1. **Soal 3.21**: U.S. House of Representatives Voting Database (Bobot: 25%)
-2. **Soal 3.34**: CONFERENCE_REVIEW Database (Bobot: 35%)
-3. **Soal 3.35**: AIRLINE Database System - Gambar 3.21 (Bobot: 40%)
+1. **Soal 3.21**: U.S. House of Representatives Voting Database
+2. **Soal 3.34**: CONFERENCE_REVIEW Database
+3. **Soal 3.35**: AIRLINE Database System - Gambar 3.21
 
 ---
 
