@@ -1,8 +1,3 @@
--- =============================================================================
--- SOAL 3.35: AIRLINE DATABASE (Berdasarkan Gambar 3.21 Buku Elmasri)
--- DDL Script untuk PostgreSQL
--- =============================================================================
-
 DROP TABLE IF EXISTS seat_reservation CASCADE;
 DROP TABLE IF EXISTS leg_instance CASCADE;
 DROP TABLE IF EXISTS flight_leg CASCADE;
@@ -13,7 +8,6 @@ DROP TABLE IF EXISTS can_land CASCADE;
 DROP TABLE IF EXISTS airplane_type CASCADE;
 DROP TABLE IF EXISTS airport CASCADE;
 
--- 1. Tabel AIRPORT
 CREATE TABLE airport (
     airport_code VARCHAR(10) PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -21,14 +15,12 @@ CREATE TABLE airport (
     state VARCHAR(50) NOT NULL
 );
 
--- 2. Tabel AIRPLANE_TYPE
 CREATE TABLE airplane_type (
     type_name VARCHAR(50) PRIMARY KEY,
     max_seats INT NOT NULL,
     company VARCHAR(50) NOT NULL
 );
 
--- 3. Tabel CAN_LAND (Relasi M:N AIRPLANE_TYPE - AIRPORT)
 CREATE TABLE can_land (
     type_name VARCHAR(50) NOT NULL,
     airport_code VARCHAR(10) NOT NULL,
@@ -37,7 +29,6 @@ CREATE TABLE can_land (
     CONSTRAINT fk_cl_airport FOREIGN KEY (airport_code) REFERENCES airport (airport_code) ON DELETE CASCADE
 );
 
--- 4. Tabel AIRPLANE
 CREATE TABLE airplane (
     airplane_id INT PRIMARY KEY,
     total_no_of_seats INT NOT NULL,
@@ -45,14 +36,12 @@ CREATE TABLE airplane (
     CONSTRAINT fk_plane_type FOREIGN KEY (type_name) REFERENCES airplane_type (type_name) ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
--- 5. Tabel FLIGHT
 CREATE TABLE flight (
     flight_number VARCHAR(20) PRIMARY KEY,
     airline VARCHAR(50) NOT NULL,
     weekdays VARCHAR(50) NOT NULL
 );
 
--- 6. Tabel FARE
 CREATE TABLE fare (
     flight_number VARCHAR(20) NOT NULL,
     fare_code VARCHAR(20) NOT NULL,
@@ -62,7 +51,6 @@ CREATE TABLE fare (
     CONSTRAINT fk_fare_flight FOREIGN KEY (flight_number) REFERENCES flight (flight_number) ON DELETE CASCADE
 );
 
--- 7. Tabel FLIGHT_LEG (Entitas Lemah dari FLIGHT)
 CREATE TABLE flight_leg (
     flight_number VARCHAR(20) NOT NULL,
     leg_no INT NOT NULL,
@@ -76,7 +64,6 @@ CREATE TABLE flight_leg (
     CONSTRAINT fk_fl_arr_airport FOREIGN KEY (arrival_airport_code) REFERENCES airport (airport_code)
 );
 
--- 8. Tabel LEG_INSTANCE (Instance dari FLIGHT_LEG pada tanggal tertentu)
 CREATE TABLE leg_instance (
     flight_number VARCHAR(20) NOT NULL,
     leg_no INT NOT NULL,
@@ -95,7 +82,6 @@ CREATE TABLE leg_instance (
     CONSTRAINT fk_li_arr_airport FOREIGN KEY (arrival_airport_code) REFERENCES airport (airport_code)
 );
 
--- 9. Tabel SEAT_RESERVATION (Reservasi tempat duduk pada suatu leg instance)
 CREATE TABLE seat_reservation (
     flight_number VARCHAR(20) NOT NULL,
     leg_no INT NOT NULL,
@@ -108,7 +94,6 @@ CREATE TABLE seat_reservation (
         REFERENCES leg_instance (flight_number, leg_no, flight_date) ON DELETE CASCADE
 );
 
--- SAMPLE DATA (Untuk pengujian)
 INSERT INTO airport (airport_code, name, city, state) VALUES
 ('CGK', 'Soekarno-Hatta International Airport', 'Tangerang', 'Banten'),
 ('DPS', 'I Gusti Ngurah Rai International Airport', 'Denpasar', 'Bali'),
@@ -147,5 +132,5 @@ INSERT INTO leg_instance (flight_number, leg_no, flight_date, airplane_id, depar
 ('QZ-7510', 1, '2026-11-01', 102, 'CGK', 'SUB', '09:00:00', '10:30:00', 187);
 
 INSERT INTO seat_reservation (flight_number, leg_no, flight_date, seat_no, customer_name, customer_phone) VALUES
-('GA-402', 1, '2026-11-01', '12A', 'Danu Aryo', '081234567890'),
+('GA-402', 1, '2026-11-01', '12A', 'Danuardi Saputro', '081234567890'),
 ('GA-402', 1, '2026-11-01', '12B', 'Rizal Broer', '081298765432');

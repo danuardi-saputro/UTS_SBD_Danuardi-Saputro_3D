@@ -1,8 +1,3 @@
--- =============================================================================
--- SOAL 3.34: CONFERENCE REVIEW DATABASE
--- DDL Script untuk PostgreSQL
--- =============================================================================
-
 DROP TABLE IF EXISTS review_assignment CASCADE;
 DROP TABLE IF EXISTS reviewer_topic CASCADE;
 DROP TABLE IF EXISTS reviewer CASCADE;
@@ -10,14 +5,12 @@ DROP TABLE IF EXISTS paper_author CASCADE;
 DROP TABLE IF EXISTS paper CASCADE;
 DROP TABLE IF EXISTS author CASCADE;
 
--- 1. Tabel AUTHOR
 CREATE TABLE author (
     author_email VARCHAR(100) PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL
 );
 
--- 2. Tabel PAPER
 CREATE TABLE paper (
     paper_id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -28,7 +21,6 @@ CREATE TABLE paper (
         REFERENCES author (author_email) ON UPDATE CASCADE ON DELETE RESTRICT
 );
 
--- 3. Tabel PAPER_AUTHOR (Relasi M:N Paper - Author)
 CREATE TABLE paper_author (
     paper_id INT NOT NULL,
     author_email VARCHAR(100) NOT NULL,
@@ -38,7 +30,6 @@ CREATE TABLE paper_author (
     CONSTRAINT fk_pa_author FOREIGN KEY (author_email) REFERENCES author (author_email) ON DELETE CASCADE
 );
 
--- 4. Tabel REVIEWER
 CREATE TABLE reviewer (
     reviewer_email VARCHAR(100) PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
@@ -47,7 +38,6 @@ CREATE TABLE reviewer (
     affiliation VARCHAR(100)
 );
 
--- 5. Tabel REVIEWER_TOPIC (Atribut bernilai banyak / Multivalued: topics of interest)
 CREATE TABLE reviewer_topic (
     reviewer_email VARCHAR(100) NOT NULL,
     topic VARCHAR(100) NOT NULL,
@@ -55,7 +45,6 @@ CREATE TABLE reviewer_topic (
     CONSTRAINT fk_rt_reviewer FOREIGN KEY (reviewer_email) REFERENCES reviewer (reviewer_email) ON DELETE CASCADE
 );
 
--- 6. Tabel REVIEW_ASSIGNMENT (Relasi M:N Reviewer - Paper dengan hasil evaluasi)
 CREATE TABLE review_assignment (
     paper_id INT NOT NULL,
     reviewer_email VARCHAR(100) NOT NULL,
@@ -76,7 +65,6 @@ CREATE TABLE review_assignment (
     CONSTRAINT chk_recommendation CHECK (overall_recommendation IN ('Strong Accept', 'Accept', 'Weak Accept', 'Borderline', 'Weak Reject', 'Reject', 'Strong Reject'))
 );
 
--- SAMPLE DATA (Untuk pengujian)
 INSERT INTO author (author_email, first_name, last_name) VALUES
 ('alice@acm.org', 'Alice', 'Smith'),
 ('bob@ieee.org', 'Bob', 'Jones'),

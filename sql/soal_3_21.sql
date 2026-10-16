@@ -1,22 +1,15 @@
--- =============================================================================
--- SOAL 3.21: U.S. HOUSE OF REPRESENTATIVES VOTING DATABASE
--- DDL Script untuk PostgreSQL
--- =============================================================================
-
 DROP TABLE IF EXISTS vote CASCADE;
 DROP TABLE IF EXISTS bill_sponsor CASCADE;
 DROP TABLE IF EXISTS bill CASCADE;
 DROP TABLE IF EXISTS congress_person CASCADE;
 DROP TABLE IF EXISTS state CASCADE;
 
--- 1. Tabel STATE
 CREATE TABLE state (
     state_name VARCHAR(50) PRIMARY KEY,
     region VARCHAR(20) NOT NULL,
     CONSTRAINT chk_state_region CHECK (region IN ('Northeast', 'Midwest', 'Southeast', 'Southwest', 'West'))
 );
 
--- 2. Tabel CONGRESS_PERSON
 CREATE TABLE congress_person (
     congress_person_id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -28,7 +21,6 @@ CREATE TABLE congress_person (
     CONSTRAINT chk_cp_party CHECK (party IN ('Republican', 'Democrat', 'Independent', 'Other'))
 );
 
--- 3. Tabel BILL
 CREATE TABLE bill (
     bill_id SERIAL PRIMARY KEY,
     bill_name VARCHAR(150) NOT NULL UNIQUE,
@@ -37,7 +29,6 @@ CREATE TABLE bill (
     CONSTRAINT chk_bill_passed CHECK (passed_or_failed IN ('Yes', 'No'))
 );
 
--- 4. Tabel BILL_SPONSOR (Relasi M:N antara CONGRESS_PERSON dan BILL)
 CREATE TABLE bill_sponsor (
     bill_id INT NOT NULL,
     congress_person_id INT NOT NULL,
@@ -46,7 +37,6 @@ CREATE TABLE bill_sponsor (
     CONSTRAINT fk_bs_cp FOREIGN KEY (congress_person_id) REFERENCES congress_person (congress_person_id) ON DELETE CASCADE
 );
 
--- 5. Tabel VOTE (Relasi M:N voting tiap anggota kongres pada tiap RUU)
 CREATE TABLE vote (
     congress_person_id INT NOT NULL,
     bill_id INT NOT NULL,
@@ -57,7 +47,6 @@ CREATE TABLE vote (
     CONSTRAINT chk_vote_cast CHECK (vote_cast IN ('Yes', 'No', 'Abstain', 'Absent'))
 );
 
--- SAMPLE DATA (Untuk pengujian)
 INSERT INTO state (state_name, region) VALUES
 ('California', 'West'),
 ('Texas', 'Southwest'),
