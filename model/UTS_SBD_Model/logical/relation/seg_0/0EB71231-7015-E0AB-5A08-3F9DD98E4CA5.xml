@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REVIEW ASSIGNMENT REVIEWER FK" directorySegmentName="seg_0" id="0EB71231-7015-E0AB-5A08-3F9DD98E4CA5">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:02:23 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>56C869F9-7F14-91BF-7C11-306B65C556DB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3BC8718F-564B-5703-02AA-4CB102B24B03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42C6BA45-4960-0794-B12B-5527FE3B56FF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

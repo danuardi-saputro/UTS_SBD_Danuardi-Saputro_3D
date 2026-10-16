@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UTS_SBD_Model" id="7CC8C4FC-4030-6C10-747A-6C86E6069268" version="3.5">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 06:32:38 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7CC8C4FC-4030-6C10-747A-6C86E6069268</designId>
+</OSDM_Design>

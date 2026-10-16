@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARRIVAL_AIRPORT" directorySegmentName="seg_0" id="5FEE5683-57E2-80F4-FABF-5A34E9A9152C">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:58:39 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>F8792705-BDAA-B80B-EA5F-877FD439CF90</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EEE916A5-5760-AA73-C287-D0F5DC854283</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A90E4AC-91DD-C552-A415-9731C3645ED2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

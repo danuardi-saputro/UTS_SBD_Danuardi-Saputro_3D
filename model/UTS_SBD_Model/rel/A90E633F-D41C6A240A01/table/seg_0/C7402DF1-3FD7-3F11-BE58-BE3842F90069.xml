@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7402DF1-3FD7-3F11-BE58-BE3842F90069" name="REVIEW_ASSIGNMENT">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>42C6BA45-4960-0794-B12B-5527FE3B56FF</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Technical_Merit" id="8D0856A0-AAFF-A75E-E668-9D46DB7C031E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>570855E0-0F86-8AC9-3235-DBF64895DD91</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Readability" id="C1577E75-ED3E-1546-E570-E5F9FF5825F7">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>AE8CD107-42BF-05ED-1A0E-454CFAD98A2B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Originality" id="B6DFAB25-2242-CBFC-7F77-CCBF6A98EE5A">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>0DE9E2EC-12FD-1BCF-6BFE-65192192EB59</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Relevance" id="F1E7A529-258C-6382-D15D-B7B517A1752F">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>26A13B23-4603-2E82-D524-22436258F984</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Overall_Recommendation" id="23095667-D306-EC5F-68D8-382C775A03B0">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>8E570A78-5FFF-0DD3-D798-2AE276F36AC2</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Committee_Comments" id="A544219D-07D0-D359-CCAC-F8D9F5980CD8">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>C5958CF6-AEC0-15B2-1210-F377B5B0C9E5</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Author_Feedback" id="66D2C15D-6FB8-A906-FFD5-95D270CBF975">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>1F67EC03-3B8F-376F-A446-5AC380FE0D5B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAPER_Paper_Id" id="891388C1-580E-81CF-196B-D11FF72EBE43">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>4B3AD25C-8B6B-AB3C-4A9C-18B33E334B05</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C16D6568-FE0A-91D1-8845-28730F37C125" referredColumn="8D3B81DA-E41F-6D20-2C47-D52CE26826E8"/>
+</associations>
+</Column>
+<Column name="REVIEWER_Reviewer_Email" id="2BD00155-6810-5B37-23DD-7E487847705D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>453DB8BF-6E65-2C1F-13B6-6B348DB95338</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD906679-4497-0161-72DE-9CB2138C2835" referredColumn="3CC4F44C-8BAD-2601-2092-F7575AFF5DED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="043BBBBD-A7FD-E63A-727A-7FEE7F702513" name="REVIEW_ASSIGNMENT_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>6AFE0260-508E-C9CB-CACB-AE85E41FEFB3</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="891388C1-580E-81CF-196B-D11FF72EBE43"/>
+<colUsage columnID="2BD00155-6810-5B37-23DD-7E487847705D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B90724D8-7563-C973-AF93-BC0D96166BB8" name="REVIEW_ASSIGNMENT_PAPER_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>103BB635-5982-7692-667A-55788756D66C</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="891388C1-580E-81CF-196B-D11FF72EBE43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7A0C7A5-306B-5573-3CAC-755DD6A8DD78" name="REVIEW_ASSIGNMENT_REVIEWER_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>0EB71231-7015-E0AB-5A08-3F9DD98E4CA5</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD00155-6810-5B37-23DD-7E487847705D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

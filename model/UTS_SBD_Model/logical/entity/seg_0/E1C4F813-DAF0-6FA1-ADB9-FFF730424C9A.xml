@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1C4F813-DAF0-6FA1-ADB9-FFF730424C9A" name="PAPER">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:42:42 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Paper Id" id="B38F417C-6037-93F1-4590-D1D488543C0D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:43:09 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="A23B061C-F394-42D6-E459-B657E6AAAB04">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:43:25 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Abstract" id="4E5B7A46-E83F-A94C-A148-CC7A09B4F6BC">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:43:52 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="File Name" id="367097A8-FEF5-EFAD-BF06-371584C8F967">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:44:22 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUTHOR Author Email" id="049E30A5-F62D-ABC9-9CAA-5C54503144AE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:53:11 UTC</createdTime>
+<generatorID>B271A20A-4BFB-48D9-2F97-2AC76666EB55</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>A0E7DC5A-BA1D-25EB-2CBD-A5904A294C32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="46D6FB43-5D8F-E168-C0E2-DB40DB7861BF" name="PAPER PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:43:24 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B38F417C-6037-93F1-4590-D1D488543C0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

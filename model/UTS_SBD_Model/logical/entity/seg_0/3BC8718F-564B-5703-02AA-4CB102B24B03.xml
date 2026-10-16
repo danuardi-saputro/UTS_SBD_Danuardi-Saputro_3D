@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BC8718F-564B-5703-02AA-4CB102B24B03" name="REVIEWER">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:54:04 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Reviewer Email" id="A7E17D37-1E91-C3F3-000D-1E8F797EE73D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:54:21 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="27D93FE6-3757-7919-795B-E8E6464EF5DE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:54:36 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Name" id="B48C423B-8E65-834F-344A-3E2C446D61EC">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:55:00 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone Number" id="23FE5D01-72DA-5C8F-354C-2FFE7365B02B">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:55:28 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Affiliation" id="F1727988-0EC5-C346-E1A4-21577FC85F59">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:55:54 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56C869F9-7F14-91BF-7C11-306B65C556DB" name="REVIEWER PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:54:35 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7E17D37-1E91-C3F3-000D-1E8F797EE73D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

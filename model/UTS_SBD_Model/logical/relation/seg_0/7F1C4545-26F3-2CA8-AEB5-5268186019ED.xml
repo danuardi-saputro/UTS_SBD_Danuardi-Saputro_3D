@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="7F1C4545-26F3-2CA8-AEB5-5268186019ED">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:49:12 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>8F9B5839-29FC-5D5C-3554-30B04FA68940</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D6EB8A7-6DFE-26E4-C45A-23306C000C2C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CD99700-A84C-FCC6-5D24-6804C3CA87F9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

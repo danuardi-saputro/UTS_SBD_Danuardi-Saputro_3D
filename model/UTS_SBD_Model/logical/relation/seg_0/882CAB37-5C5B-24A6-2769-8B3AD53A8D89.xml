@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CAN_LAND" directorySegmentName="seg_0" id="882CAB37-5C5B-24A6-2769-8B3AD53A8D89">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:41:44 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EEE916A5-5760-AA73-C287-D0F5DC854283</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D6EB8A7-6DFE-26E4-C45A-23306C000C2C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7190507F-5886-8C5C-9ADD-7776DD98CC96" containerWithKeyObject="8CA03C25-CE40-8DC2-8BF8-E90C980302C9" localFKIndex="3DD19ADD-B113-9476-4B27-CDA29A6D17BF" name="CONGRESS_PERSON_STATE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>A64F7A49-0D99-4219-EB9D-635403449908</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<referredTableLongName>STATE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCA7DE5D-03B1-81BA-5274-C33FC7AB8868</referredTableID>
+<keyObject>995B5B51-6CC8-2F49-440D-0978160B5B90</keyObject>
+<referredKeyID>995B5B51-6CC8-2F49-440D-0978160B5B90</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>State_name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63B198DA-25A5-523E-EE03-ADB5CA228A80" name="FARE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>14861C4C-E5C5-6F3C-E6AA-0068C3D722C6</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fare_Code" id="C152EE6D-B2FD-6D1F-CC5A-A287656C8E33">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>C5662972-F903-31D4-B5B7-6EA3EB85CD5F</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount" id="F0D94182-3F10-B92E-C184-7322532F5038">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>C0830683-BC91-5452-EB25-1DB98A71E47E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restrictions" id="7B281943-CA72-082A-A989-6C0FC88C1BC4">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>091B9B40-E64A-36EC-9865-7A3B8C3F6702</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FLIGHT_Flight_Number" id="33DC5351-9509-713D-FF10-A42036404121">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>322DE8E5-2059-BFFE-E545-D091EA1A4C20</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="452F0FD5-A6DC-2C7E-AF77-F26075602493" referredColumn="9ED66521-D4C3-8C50-0A7E-464907873AD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="070A2B89-E5EE-F010-4CA6-F27940934826" name="FARE_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>B405B83F-7CE9-913D-F5C8-DDF57DECD5BB</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C152EE6D-B2FD-6D1F-CC5A-A287656C8E33"/>
+<colUsage columnID="33DC5351-9509-713D-FF10-A42036404121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E552469-7C2D-9526-9413-C741319352E1" name="FARE_FLIGHT_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>5613793C-71F1-75F4-3A60-C639B5CAEB06</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33DC5351-9509-713D-FF10-A42036404121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

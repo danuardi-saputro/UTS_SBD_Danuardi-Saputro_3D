@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9CC0C4A-D09F-CB2E-1943-BE04B697C286" name="VOTE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 06:59:10 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vote Cast" id="B94FD76C-C10D-44C7-B342-4A9415807D2F">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 06:59:39 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONGRESS PERSON Congress Person Id" id="45AAFDEC-D0F7-68E9-C8AF-FED4124E8195">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:00:48 UTC</createdTime>
+<generatorID>BB30544A-C248-21E7-998E-A623F446CD62</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>B2E01B06-7F91-3E94-1754-DA14069B4871</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILL Bill Id" id="5027CE6F-C23F-6184-459F-066E332A5E1E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:01:06 UTC</createdTime>
+<generatorID>DB1F9311-558F-713E-4E30-25748DCAA282</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>A3726404-AA32-CFAE-C036-D8B6EB0303FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

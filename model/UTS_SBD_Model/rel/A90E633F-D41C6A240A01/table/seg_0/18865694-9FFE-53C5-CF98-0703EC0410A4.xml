@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18865694-9FFE-53C5-CF98-0703EC0410A4" name="REVIEWER">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>3BC8718F-564B-5703-02AA-4CB102B24B03</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reviewer_Email" id="3CC4F44C-8BAD-2601-2092-F7575AFF5DED">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>A7E17D37-1E91-C3F3-000D-1E8F797EE73D</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="C2D4845D-8333-53DA-50C6-2822B2243E6E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>27D93FE6-3757-7919-795B-E8E6464EF5DE</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="19EBCC70-7618-56FE-168B-413557EF3176">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>B48C423B-8E65-834F-344A-3E2C446D61EC</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_Number" id="9411635C-CF58-83E7-E506-D242A7CE8764">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>23FE5D01-72DA-5C8F-354C-2FFE7365B02B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Affiliation" id="5F82F5F2-32B8-A8E7-2946-6FE0496AEBEB">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>F1727988-0EC5-C346-E1A4-21577FC85F59</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803ECEFB-8F67-B06A-08CE-4DA0F0B3C745" name="REVIEWER_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>56C869F9-7F14-91BF-7C11-306B65C556DB</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CC4F44C-8BAD-2601-2092-F7575AFF5DED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

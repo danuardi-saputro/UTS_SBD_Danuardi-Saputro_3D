@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7708A8C0-E5F6-1D53-C267-F1981BFCE835" name="BILL">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>97AD2B41-25A3-A075-1980-006D76229FA9</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Bill_Id" id="E8F45B16-4847-83DD-90DD-3E75A80A441C">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>A3726404-AA32-CFAE-C036-D8B6EB0303FC</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bill_Name" id="00207038-B655-7EA2-B444-1EC2C8430437">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>A47B3915-DC2B-81EA-0291-5CE68A956BE6</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Of_Vote" id="2CE34556-91AC-DF4D-3E29-C7952A1D12C5">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>20538707-93D2-EAF5-3B38-76F248A4241E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Passed_Or_Failed" id="AD51947B-A4E5-3CAE-94F5-B7924202A49B">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>8D709236-9D3B-C233-5C86-99F792DA9AEE</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="377C2678-D8EC-6A34-C676-0BD43F014049" name="BILL_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>092DDEAE-E12A-9D9B-DD6D-95F6B1CDFA0B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F45B16-4847-83DD-90DD-3E75A80A441C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

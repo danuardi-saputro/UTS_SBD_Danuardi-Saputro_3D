@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD01D2B9-44CC-0D6C-A34D-1C85EC6569CA" name="SEAT_RESERVATION">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>B147F24C-AA71-9A1F-4C48-5FED40C58477</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seat_No" id="E137FF58-5F56-6C39-CC46-90734C3EB63F">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>B8B25885-067A-DD9E-1399-57C58018245F</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Name" id="98755ABE-9094-8886-89C8-A03D3B24054E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>11AC74C0-452D-6A05-EBB7-1BC479ACF0CA</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_Phone" id="CC9B48C4-4A28-44CE-04EC-FF5A81CA02E5">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>E476EEA7-5CD2-7E78-F90B-A7AFD55368ED</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEG_INSTANCE_Flight_Date" id="C2CE4579-ED76-2BBB-5539-0C8D4649AB7D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>E353D622-F30F-D243-6F05-DE89384FEAA5</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD22D67-CE91-C742-F540-4D7CB0B7EFD9" referredColumn="3ED3CD92-071A-20BE-99F5-9FFDE3627B4F"/>
+</associations>
+</Column>
+<Column name="LEG_INSTANCE_FLIGHT_LEG_Leg_No" id="C34ED270-A01E-3527-36F7-C31488F9E973">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>58F9AB0E-4090-755E-8A72-6F072D0C17C4</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD22D67-CE91-C742-F540-4D7CB0B7EFD9" referredColumn="DA94243E-07EE-20B6-614F-8C0BBAC3C066"/>
+</associations>
+</Column>
+<Column name="LEG_INSTANCE_FLIGHT_LEG_FLIGHT_Flight_Number" id="89DA19D1-D76A-2D85-7933-81E93DE539E4">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>2A72AFE1-5638-DB4E-64B2-EE90A7C61704</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD22D67-CE91-C742-F540-4D7CB0B7EFD9" referredColumn="2574169B-4F6C-D129-049A-049A75829ABF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82AD776C-4432-AC55-3D36-0B52CD562A81" name="SEAT_RESERVATION_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>5D09BB98-401D-BAC4-4693-87980B5E75A0</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E137FF58-5F56-6C39-CC46-90734C3EB63F"/>
+<colUsage columnID="C2CE4579-ED76-2BBB-5539-0C8D4649AB7D"/>
+<colUsage columnID="C34ED270-A01E-3527-36F7-C31488F9E973"/>
+<colUsage columnID="89DA19D1-D76A-2D85-7933-81E93DE539E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D4AFB5-CE6C-7D96-CED9-8BF496DE6586" name="SEAT_RESERVATION_LEG_INSTANCE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>248969FF-26A0-3D1E-18B0-8B4D93EB0062</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2CE4579-ED76-2BBB-5539-0C8D4649AB7D"/>
+<colUsage columnID="C34ED270-A01E-3527-36F7-C31488F9E973"/>
+<colUsage columnID="89DA19D1-D76A-2D85-7933-81E93DE539E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

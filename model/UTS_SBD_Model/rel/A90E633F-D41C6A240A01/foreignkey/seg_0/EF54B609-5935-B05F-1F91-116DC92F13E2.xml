@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF54B609-5935-B05F-1F91-116DC92F13E2" containerWithKeyObject="9820FCDA-8332-9B4B-C029-B3838096EEEC" localFKIndex="D9B4C3CC-DDA3-2C85-2D66-95E23E44D187" name="CAN_LAND_AIRPLANE_TYPE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>882CAB37-5C5B-24A6-2769-8B3AD53A8D89</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<referredTableLongName>AIRPLANE_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C3EDA94-C72E-EB10-ED5B-FD46BEFBD3E1</referredTableID>
+<keyObject>30A75873-286A-0401-8BDF-C05876F654AA</keyObject>
+<referredKeyID>30A75873-286A-0401-8BDF-C05876F654AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Type_Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

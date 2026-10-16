@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5017D238-44BE-3B2F-D05A-12534A1DD83E" name="REVIEWER TOPIC">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:56:34 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Topic" id="B4235172-2844-D3F7-A4D0-61783BC89702">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:56:55 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REVIEWER Reviewer Email" id="759845F9-61D6-94DE-5175-C3A1DBEDAF38">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:57:36 UTC</createdTime>
+<generatorID>3CF872C9-644D-C972-5039-A291AEB7BD2F</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>A7E17D37-1E91-C3F3-000D-1E8F797EE73D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE83F98C-6421-1C22-BBF7-56D39D0E061E" name="REVIEWER_TOPIC_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:57:02 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4235172-2844-D3F7-A4D0-61783BC89702</attributeRef>
+<attributeRef>759845F9-61D6-94DE-5175-C3A1DBEDAF38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

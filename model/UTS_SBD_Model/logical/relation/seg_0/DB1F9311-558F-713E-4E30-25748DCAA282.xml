@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VOTE BILL FK" directorySegmentName="seg_0" id="DB1F9311-558F-713E-4E30-25748DCAA282">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:01:06 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>092DDEAE-E12A-9D9B-DD6D-95F6B1CDFA0B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97AD2B41-25A3-A075-1980-006D76229FA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9CC0C4A-D09F-CB2E-1943-BE04B697C286</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

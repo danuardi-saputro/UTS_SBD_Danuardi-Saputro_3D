@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D311655F-5651-99EA-DCA8-02479EC0B6C5" name="WRITES">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTHOR_Author_Email" id="20FE1962-54CB-757D-B41F-2DB912E1CE36">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C480A645-2DB3-D88C-A8B5-BE99C5DB57C6" referredColumn="98F73505-7183-01A4-9649-F23E3D972E22"/>
+</associations>
+</Column>
+<Column name="PAPER_Paper_Id" id="226B2B27-C7C2-0E26-CEE0-5B5FD1EF8CC0">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9084F16-BA11-FF6D-BBA9-17F0EF72423D" referredColumn="8D3B81DA-E41F-6D20-2C47-D52CE26826E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49166290-4F38-6573-D799-556C16EE9062" name="WRITES_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20FE1962-54CB-757D-B41F-2DB912E1CE36"/>
+<colUsage columnID="226B2B27-C7C2-0E26-CEE0-5B5FD1EF8CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="809ED62F-D4CC-35A9-3F1F-62AD1BC0E814" name="WRITES_AUTHOR_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>FA01393D-8530-79CF-5BA3-8064C5C48043</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20FE1962-54CB-757D-B41F-2DB912E1CE36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E351E149-CD0B-B0C7-CB34-F124DFB7D4B4" name="WRITES_PAPER_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>FA01393D-8530-79CF-5BA3-8064C5C48043</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="226B2B27-C7C2-0E26-CEE0-5B5FD1EF8CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

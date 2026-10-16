@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9820FCDA-8332-9B4B-C029-B3838096EEEC" name="CAN_LAND">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AIRPORT_Airport_Code" id="ECC7365F-C085-2E58-56D0-4144AE7BF706">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40AEFA87-17C0-7083-F006-9EC6BD0241FE" referredColumn="0045FA26-EF8E-7186-7C31-31F542320F03"/>
+</associations>
+</Column>
+<Column name="AIRPLANE_TYPE_Type_Name" id="5915DF3A-EE8E-288D-A011-0A6D534084C5">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF54B609-5935-B05F-1F91-116DC92F13E2" referredColumn="DDD3775B-EFF1-A5E8-6AE9-628C6FEB2E3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CDCBAC9-005A-6911-50F2-FE2B530B2E84" name="CAN_LAND_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECC7365F-C085-2E58-56D0-4144AE7BF706"/>
+<colUsage columnID="5915DF3A-EE8E-288D-A011-0A6D534084C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30EF97FF-1383-B4E2-31F0-8EA881881D57" name="CAN_LAND_AIRPORT_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>882CAB37-5C5B-24A6-2769-8B3AD53A8D89</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECC7365F-C085-2E58-56D0-4144AE7BF706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9B4C3CC-DDA3-2C85-2D66-95E23E44D187" name="CAN_LAND_AIRPLANE_TYPE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>882CAB37-5C5B-24A6-2769-8B3AD53A8D89</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5915DF3A-EE8E-288D-A011-0A6D534084C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

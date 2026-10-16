@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BC92ADE-A665-EF52-964F-F95CA764E9CE" name="VOTE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>D9CC0C4A-D09F-CB2E-1943-BE04B697C286</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vote_Cast" id="7FB76D45-08EF-DE98-ED85-02276940FECE">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>B94FD76C-C10D-44C7-B342-4A9415807D2F</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONGRESS_PERSON_Congress_Person_Id" id="BB39BC41-7F56-6A10-06E4-2D18809430B1">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>45AAFDEC-D0F7-68E9-C8AF-FED4124E8195</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486F5D02-E8A2-A676-4F43-34837746251D" referredColumn="14191C78-81A5-AC61-317D-5EB87851172D"/>
+</associations>
+</Column>
+<Column name="BILL_Bill_Id" id="B24CB16E-6FB0-3706-7606-552E6A03CE46">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>5027CE6F-C23F-6184-459F-066E332A5E1E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F5A0539-7FA0-2777-2AE0-6BC4309BCFB7" referredColumn="E8F45B16-4847-83DD-90DD-3E75A80A441C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64C5EDBB-0E77-21C3-99B1-DB46A2789E0E" name="VOTE_CONGRESS_PERSON_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>BB30544A-C248-21E7-998E-A623F446CD62</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB39BC41-7F56-6A10-06E4-2D18809430B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4155550-3190-472A-805C-A653841F74DD" name="VOTE_BILL_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>DB1F9311-558F-713E-4E30-25748DCAA282</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B24CB16E-6FB0-3706-7606-552E6A03CE46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

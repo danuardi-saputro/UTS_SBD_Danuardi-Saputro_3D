@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D86DA1F6-9BB9-C8EC-48A9-E13A1108AE7E" containerWithKeyObject="EEF3110B-8476-3175-DC83-CEB8A72CEAB3" localFKIndex="2A1470FA-0414-BF0B-9253-002199C466F9" name="LEG_INSTANCE_AIRPLANE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 09:13:23 UTC</createdTime>
+<generatorID>5FE72DB2-DB59-ACA7-9FF4-92A201566A5B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<referredTableLongName>AIRPLANE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A0637D5-47EC-A055-96FE-0AFB2F1464ED</referredTableID>
+<keyObject>F3A4A634-728A-BD5C-3B08-CDBD9D366630</keyObject>
+<referredKeyID>F3A4A634-728A-BD5C-3B08-CDBD9D366630</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Airplane_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

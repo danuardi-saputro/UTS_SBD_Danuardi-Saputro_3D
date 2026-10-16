@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="123853AA-7781-D3F6-E85F-CFF92D45AC00" name="REVIEWER_TOPIC">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>5017D238-44BE-3B2F-D05A-12534A1DD83E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Topic" id="B8DD856C-6B8B-E809-FAE8-75955C96939F">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>B4235172-2844-D3F7-A4D0-61783BC89702</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REVIEWER_Reviewer_Email" id="75BF09F6-C4F2-9BE2-AD26-1F55164AA5AD">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>759845F9-61D6-94DE-5175-C3A1DBEDAF38</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1AD9873-F1B8-9F4F-A7CE-6C916643D423" referredColumn="3CC4F44C-8BAD-2601-2092-F7575AFF5DED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF01A6B4-6B44-360A-3F9D-7CB57FC9C1B5" name="REVIEWER_TOPIC_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>CE83F98C-6421-1C22-BBF7-56D39D0E061E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8DD856C-6B8B-E809-FAE8-75955C96939F"/>
+<colUsage columnID="75BF09F6-C4F2-9BE2-AD26-1F55164AA5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F23712BF-F4B4-5178-5C2B-F2EF954387CE" name="REVIEWER_TOPIC_REVIEWER_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:06:10 UTC</createdTime>
+<generatorID>3CF872C9-644D-C972-5039-A291AEB7BD2F</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75BF09F6-C4F2-9BE2-AD26-1F55164AA5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

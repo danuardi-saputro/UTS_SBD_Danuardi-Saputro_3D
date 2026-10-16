@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CA03C25-CE40-8DC2-8BF8-E90C980302C9" name="CONGRESS_PERSON">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>DBC152BF-E1EB-DF49-4E3D-7B47EDB2D818</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Congress_Person_Id" id="14191C78-81A5-AC61-317D-5EB87851172D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>B2E01B06-7F91-3E94-1754-DA14069B4871</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="A0BE8CEF-B723-723B-9E24-06FE0EBFAD89">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>6D8A9435-3152-AD09-BA15-E0D64BD3AAC0</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="District" id="98E7F415-7D41-F78D-D255-72E6E512CAA3">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>26D348BA-6D1E-8CDE-BF12-A13DF398254E</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start_Date" id="BADC6525-07C8-12C3-E0F7-86C9A3B744B1">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>1A32C336-F5F9-323B-3980-101FA18DE17B</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Party" id="1A524410-FE7E-96DE-92CD-2E02F332DE3E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>BB01002B-8293-EF74-312D-492309938640</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE_State_name" id="C1A53AB7-CE26-35F0-7DE6-8A1CB21630A8">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>EED55BA1-59DF-6AC1-A1BD-EA9B1DF55265</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7190507F-5886-8C5C-9ADD-7776DD98CC96" referredColumn="0EE780B8-A38E-71E3-7BEF-71D9B651F431"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E132CBE-799A-2CF7-5AB6-8414D2170BFC" name="CONGRESS_PERSON_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>97647B72-8C7D-707F-A645-8DB6B2F750D4</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14191C78-81A5-AC61-317D-5EB87851172D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD19ADD-B113-9476-4B27-CDA29A6D17BF" name="CONGRESS_PERSON_STATE_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>A64F7A49-0D99-4219-EB9D-635403449908</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1A53AB7-CE26-35F0-7DE6-8A1CB21630A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

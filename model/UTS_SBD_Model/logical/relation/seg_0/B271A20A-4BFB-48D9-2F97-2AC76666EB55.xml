@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAPER AUTHOR FK" directorySegmentName="seg_0" id="B271A20A-4BFB-48D9-2F97-2AC76666EB55">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:53:11 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>6169196D-6500-8F64-0900-3C6545FD7057</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54E8BB94-E749-8121-CEFF-400966A882C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1C4F813-DAF0-6FA1-ADB9-FFF730424C9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

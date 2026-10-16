@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="680344F3-FC46-7D15-59AC-7056E5D7CCFE" containerWithKeyObject="0C29E046-A0E6-B83C-9895-57413CB01D05" localFKIndex="288FBE6B-224F-7868-C308-DC82CA87F291" name="SPONSORS_BILL_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>09A8958C-F02A-CF80-8B11-B9D1C619FD02</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<referredTableLongName>BILL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7708A8C0-E5F6-1D53-C267-F1981BFCE835</referredTableID>
+<keyObject>377C2678-D8EC-6A34-C676-0BD43F014049</keyObject>
+<referredKeyID>377C2678-D8EC-6A34-C676-0BD43F014049</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Bill_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<MultidimensionalDesign class="oracle.dbtools.crest.model.design.multidimensional.MultidimensionalDesign" name="Multidimensional_1" id="3DF6D742-2E03-6955-BA76-771351FF39BB" mainViewID="560D5FB5-5ECC-9962-6F01-16F2DCB9B9BF" boundModel="C390193C-8ABA-5B3B-EF7A-89B926312CBA">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 11:39:55 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</MultidimensionalDesign>

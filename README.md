@@ -1,11 +1,12 @@
 # Laporan Ujian Tengah Semester (UTS) - Sistem Basis Data
 
 **Nama**: Danuardi Saputro  
+**NIM / Email**: danuardi.saputro25@mhs.uinjkt.ac.id  
 **Kelas**: 3D  
 **Program Studi**: Sistem Informasi  
 **Mata Kuliah**: Sistem Basis Data  
-**Dosen Pengampu**: Pak Rizal Broer, M.Kom  
-**Repositori GitHub**: [https://github.com/dnnuuyzzo/UTS_SBD_Danuardi-Saputro_3D](https://github.com/dnnuuyzzo/UTS_SBD_Danuardi-Saputro_3D)  
+**Dosen Pengampu**: Pak Rizal Broer, M.Kom (`rizalbroer@uinjkt.ac.id`)  
+**Repositori GitHub**: [https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D](https://github.com/danuardi-saputro/UTS_SBD_Danuardi-Saputro_3D)  
 
 ---
 
@@ -26,6 +27,9 @@ UTS_SBD_Danuardi-Saputro_3D/
 ├── README.md                                # Dokumentasi utama repositori
 ├── Laporan_UTS_SBD_Danuardi_Saputro_3D.pdf  # Berkas laporan utama format PDF
 ├── Laporan_UTS_SBD_Danuardi_Saputro_3D.docx # Berkas laporan utama format Word
+├── model/                                   # Berkas proyek Oracle Data Modeler (.dmd)
+│   ├── UTS_SBD_Model.dmd
+│   └── UTS_SBD_Model/
 ├── screenshots/                             # Dokumentasi tangkapan layar proses
 │   ├── soal_3_21_logical_model.png
 │   ├── soal_3_21_relational_model.png
@@ -63,19 +67,3 @@ UTS_SBD_Danuardi-Saputro_3D/
 - **Deskripsi**: Implementasi menyeluruh sistem penerbangan komersial sesuai Gambar 3.21 buku Elmasri.
 - **Entitas Utama**: `AIRPORT`, `AIRPLANE_TYPE`, `CAN_LAND`, `AIRPLANE`, `FLIGHT`, `FARE`, `FLIGHT_LEG`, `LEG_INSTANCE`, dan `SEAT_RESERVATION`.
 - **Skrip DDL**: [`sql/soal_3_35.sql`](sql/soal_3_35.sql)
-
----
-
-## Petunjuk Eksekusi DDL pada PostgreSQL
-
-1. Buat database baru di PostgreSQL / pgAdmin:
-   ```sql
-   CREATE DATABASE uts_sbd;
-   ```
-2. Jalankan skrip DDL sesuai kebutuhan:
-   ```sql
-   \i sql/soal_3_21.sql
-   \i sql/soal_3_34.sql
-   \i sql/soal_3_35.sql
-   ```
-3. Seluruh skrip sudah mencakup pembuatan tabel, pendefinisian Primary Key, Foreign Key (*referential integrity*), Check Constraint, serta data pengujian (*sample data*).

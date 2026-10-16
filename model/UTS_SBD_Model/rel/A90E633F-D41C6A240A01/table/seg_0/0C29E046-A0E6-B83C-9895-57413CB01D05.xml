@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C29E046-A0E6-B83C-9895-57413CB01D05" name="SPONSORS">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONGRESS_PERSON_Congress_Person_Id" id="5934A209-B9ED-3E7A-5176-5AD2E9A070ED">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A5D9523-C0BC-6FFC-B065-3DB44F8F45BE" referredColumn="14191C78-81A5-AC61-317D-5EB87851172D"/>
+</associations>
+</Column>
+<Column name="BILL_Bill_Id" id="EC34FC82-74CA-C02C-17D0-B62E77E14C77">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="680344F3-FC46-7D15-59AC-7056E5D7CCFE" referredColumn="E8F45B16-4847-83DD-90DD-3E75A80A441C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E896F30F-04CB-F1A5-7E4E-2AD515A1A57C" name="SPONSORS_PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5934A209-B9ED-3E7A-5176-5AD2E9A070ED"/>
+<colUsage columnID="EC34FC82-74CA-C02C-17D0-B62E77E14C77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="257B7A3B-6D99-A8BE-EA28-953C7065B4AF" name="SPONSORS_CONGRESS_PERSON_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>09A8958C-F02A-CF80-8B11-B9D1C619FD02</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5934A209-B9ED-3E7A-5176-5AD2E9A070ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="288FBE6B-224F-7868-C308-DC82CA87F291" name="SPONSORS_BILL_FK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 07:05:33 UTC</createdTime>
+<generatorID>09A8958C-F02A-CF80-8B11-B9D1C619FD02</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC34FC82-74CA-C02C-17D0-B62E77E14C77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

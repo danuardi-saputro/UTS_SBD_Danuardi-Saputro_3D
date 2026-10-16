@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A90E4AC-91DD-C552-A415-9731C3645ED2" name="FLIGHT_LEG">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:56:08 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Leg_No" id="704DCC26-9082-A887-3EDF-D1E651332D92">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:56:30 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled_Dep_Time" id="1C97F957-60BB-62D6-93F5-3F36E8963670">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:56:41 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Scheduled_Arr_Time" id="BEE5B97B-8CCD-8C0A-AE8B-DE490A1E267D">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:57:02 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Flight_Number" id="F65DD745-8998-5AB9-E3A8-F22817C13217">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:57:40 UTC</createdTime>
+<generatorID>DF62763C-9DED-9545-BE1C-4A41EFCD0AE8</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>EDF68C19-D3FF-5ECE-5D80-53D8C2FF3EB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_Code" id="BB5BC346-8016-E931-054D-F1FE8D5FF66E">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:58:00 UTC</createdTime>
+<generatorID>2D7D475D-BB8E-F4C4-1558-3AC690E14099</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>A633BBFF-3745-3046-2D5D-D99149549E6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Airport_Code1" id="71B0B6EC-279F-0AA6-E972-C33C09AD1CA7">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:58:39 UTC</createdTime>
+<generatorID>5FEE5683-57E2-80F4-FABF-5A34E9A9152C</generatorID>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<referedAttribute>A633BBFF-3745-3046-2D5D-D99149549E6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EC898A5-DFF6-F572-B390-1FCF90F956A9" name="FLIGHT_LEG PK">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 08:56:40 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>704DCC26-9082-A887-3EDF-D1E651332D92</attributeRef>
+<attributeRef>F65DD745-8998-5AB9-E3A8-F22817C13217</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

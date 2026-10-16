@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONGRESS PERSON STATE FK" directorySegmentName="seg_0" id="A64F7A49-0D99-4219-EB9D-635403449908">
+<createdBy>danua</createdBy>
+<createdTime>2026-10-16 06:50:17 UTC</createdTime>
+<ownerDesignName>engga_tahu</ownerDesignName>
+<engineerTo>
+<item key="A90E633F-FCDF-0E0C-4D52-D41C6A240A01" value="true"/>
+</engineerTo>
+<sourcePk>50452FC1-E348-0CDB-079A-503C451819D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80241CB5-6F86-631A-42FE-144A36DEB9EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DBC152BF-E1EB-DF49-4E3D-7B47EDB2D818</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
